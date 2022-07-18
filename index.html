@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com"
+        crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet" href="/images">
+  <title>Email - Transactional</title>
+
+  <style>
+    /* Global Start */
+    body {
+      background-color: #ffffff;
+    }
+    /* Global End */
+
+    /* Sections Start */
+    .menu-header {
+      padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; background-color: #f4f4f4;
+    }
+    /* Sections End */
+
+    /* Spacing Start */
+      .header-gap-sm {
+        width: 10px;
+      }
+      .header-gap-lg {
+        width: 30px;
+      }
+    /* Spacing End */
+
+    /* Colors Start */
+
+    /* Colors End */
+
+    /* Media Queries Start */
+
+      /* Small devices (portrait tablets and large phones, 600px and up) */
+      @media only screen and (max-width: 600px) {
+        .container {
+            width: 100%;
+          }
+        .header {
+            display: none;
+          }
+        .inner-table-container {
+          padding-left: 10px !important;
+          padding-right: 10px !important;
+        }
+        .inner-table {
+          width: 100% !important;
+        }
+        .inner-table .receipt-greeting {
+          font-size: 25px !important; 
+        }
+      }
+
+    /* Media Queries End */
+  </style>
+</head>
+<body>
+  <!-- Start HTML Email -->
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica,Arial, 'Lucida Grande', sans-serif;">
+    <tr>
+      <td>
+
+        <!-- Start of Container -->
+        <table class="container" width="600" align="center" border="0" cellspacing="0" cellpadding="0" style="margin: 0 auto;">
+
+          <!-- Start Header Row -->
+          <tr>
+            <td class="header" style="height: 102px;" height="102" align="center">
+              <table style="border-collapse: collapse;" width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td align="left">
+                    <a href="#">
+                      <img src="https://i.postimg.cc/L6xk1vr1/logo.png" alt="Logo Image" style="border: none; clear: both; display: block; height: 60px; width: 60px;" width="70" height="70" border="0">
+                    </a>
+                  </td>
+                  <td class="header-gap" style="width: 300px;"></td>
+                  <td align="center" style="height: 102px;" height="102">
+                    <a href="#">
+                      <img src="https://i.postimg.cc/fT9CyC0Y/treats.jpg" alt="Treats Image"
+                           style="display: block; object-fit: cover;object-position: center; height: 60px; width: 70px;"
+                           height="60" width="70" border="0">
+                    </a>
+                  </td>
+                  <td class="header-gap-sm"
+                      style="width: 10px;"
+                      width="10">
+                  </td>
+                  <td align="center" style="height: 102px;"
+                      height="102">
+                    <a href="#">
+                      <img src="https://i.postimg.cc/DzX1Rhmr/profile.jpg" alt="Profile Image"
+                           style="display: block; object-fit: cover;object-position: center; height: 60px; width: 70px;"
+                           height="60" width="70" border="0">
+                    </a>
+                  </td>
+                  <td class="header-gap-sm"
+                      style="width: 10px;"
+                      width="10">
+                  </td>
+                  <td align="center" style="height: 102px;"
+                      height="102">
+                    <a href="#">
+                      <img src="https://i.postimg.cc/Sx5WZRQQ/order.jpg" alt="Order Image"
+                           style="display: block; object-fit: cover;object-position: center; height: 60px; width: 70px;"
+                           height="60" width="70" border="0">
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- End Header Row -->
+
+          <!-- Start Main Content -->
+          <tr>
+            <td class="outter-table" style="padding: 10px; background-color: #f4f8f9; border-top: 1px solid #d8d8d8;" valign="top">
+              <table style="background-color: #ffffff;" width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                <!-- Inner Table Container Start -->
+                <tr>
+                  <td class="inner-table-container" style="padding-top: 70px; padding-bottom: 70px; background-color: #ffffff;" align="center" valign="top">
+                    <table class="inner-table" style="border-collapse: collapse; width: 520px;  background-color: #ffffff;" width="520" border="0" cellspacing="0"
+                    cellpadding="0">
+
+                      <!-- Order Receipt Start -->
+                      <tr>
+                        <td style="padding-top: 20px; font-size: 14px; font-weight: 700; text-transform: uppercase; color: #c8102e;">
+                          <img src="https://i.postimg.cc/zG3CSKrP/receipt.jpg" alt="Receipt Image"
+                               style="display: block; border: none;"
+                               width="180" height="11" border="0">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="receipt-greeting" style="padding-top: 10px; font-size: 35px; font-weight: 700; color: #5b6770;">
+                          It was great to see you, Desi
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="receipt-info" style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 0px; font-size: 16px; font-weight: 400; color: #5b6770; line-height: 2;">
+                            Thanks for stopping by today. It's always our pleasure to serve you. We appreciate your loyalty and using the Chick‑fil‑A® App for contactless ordering and payment as we work to serve you safely.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td
+                            style="padding-top: 40px; font-size: 16px; font-weight: 600; color: #5b6770; line-height: 25px;">
+                          <b>
+                            <span>Mobile</span>
+                          </b>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td
+                            style="padding-top: 40px; padding-bottom: 10px; font-size: 13px; color: #5b6770; line-height: 25px;">
+                            <b>Desi Steib</b>
+                            <br>
+                            <span>Mobile Order</span>
+                            <br>
+                            Order Number:
+                            <span>4321239</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td
+                            style="padding-top: 20px; font-size: 13px; color: #5b6770; line-height: 25px;">
+                          <b>
+                            Payment Method:
+                          </b>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td
+                            style="padding-top: 20px; font-size: 13px; color: #5b6770; line-height: 25px;">
+                          <b>
+                            Restaurant:
+                          </b>
+                          <br>
+                          <span>Sandy Springs</span>
+                          <span>
+                            <br>
+                            <span>4433 Heaven Island</span>
+                            <br>
+                            <span>Atlanta, GA</span>
+                            <span>111111</span>
+                            <br>
+                            <span>(111) 111-1111</span>
+                          </span>
+                        </td>
+                      </tr>
+                    <!-- Order Receipt End -->
+
+                    <!-- Menu Items Start -->
+                    <tr>
+                      <td style="background-color: #ffffff; padding-top: 40px;"
+                      align="center">
+                    
+                        <!-- Menu Items Header Start-->
+                        <tr>
+                          <td style="background-color: #ffffff;" align="center">
+                            <table style="border-collapse: collapse;" width="100%"
+                                    border="0" cellspacing="0"
+                                    cellpadding="0">
+                              <tr>
+                                <td class="menu-header"
+                                    style="padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; background-color: #f4f4f4">
+                                  <table style="border-collapse: collapse;"
+                                          width="100%" border="0" cellspacing="0"
+                                          cellpadding="0">
+                                    <tr>
+                                      <td style="width: 300px; font-weight: 600; color: #5b6770; line-height: 25px;"
+                                          width="300" align="left">
+                                        Item Name
+                                      </td>
+                                      <td style="width: 200px; font-weight: 600; color: #5b6770; line-height: 25px;"
+                                          width="200" align="left">
+                                        Quantity
+                                      </td>
+                                      <td style="width: 100px; font-weight: 600; color: #5b6770; line-height: 25px;"
+                                          width="100" align="left">
+                                        Price
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <!-- Menu Items Header End-->
+                    
+                        <!-- Single Item Start -->
+                        <tr>
+                          <td align="center">
+                            <table style="border-collapse: collapse;" width="100%"
+                                    border="0" cellspacing="0"
+                                    cellpadding="0">
+                              <tr>
+                                <td class="first-item"
+                                    style="padding-top: 25px; padding-right: 20px; padding-bottom: 25px; padding-left: 20px;"
+                                    valign="top">
+                                  <table style="border-collapse: collapse;"
+                                          width="100%" border="0" cellspacing="0"
+                                          cellpadding="0">
+                        
+                                    <!-- Single Item Row Start -->
+                                    <tr>
+                                      <td style="width: 300px; font-weight: 400; color: #5b6770; line-height: 25px;"
+                                          width="300" align="left" valign="top">
+                                        Spicy Chicken Sandwhich
+                                      </td>
+                                      <td style="width: 200px; font-weight: 400; color: #5b6770; line-height: 25px;"
+                                          width="200" align="left" valign="top">
+                                        1
+                                      </td>
+                                      <td style="width: 100px; font-weight: 400; color: #5b6770; line-height: 25px;"
+                                          width="100" align="left" valign="top">
+                                        $4.65
+                                      </td>
+                                    </tr>
+                                    <!-- Single Item Row End -->
+                        
+                                    <!-- Item Extras Row Start -->
+                                    <tr>
+                                      <td style="width: 300px; font-weight: 400; color: #5b6770; line-height: 25px; padding-left: 10px;"
+                                          width="300" align="left">
+                                        Ketchup
+                                      </td>
+                                      <td style="width: 200px; font-weight: 400; color: #5b6770; line-height: 25px;"
+                                          width="200" align="left">
+                                        2
+                                      </td>
+                                      <td style="width: 100px; font-weight: 400; color: #5b6770; line-height: 25px;"
+                                          width="100" align="left">
+                                        $0.00
+                                      </td>
+                                    </tr>
+                                    <!-- Item Extras Row End -->
+                        
+                                    <!-- Item Extras Row Start -->
+                                    <tr>
+                                      <td style="width: 300px; font-weight: 400; color: #5b6770; line-height: 25px; padding-left: 10px;"
+                                          width="300" align="left">
+                                        Mayo
+                                      </td>
+                                      <td style="width: 200px; font-weight: 400; color: #5b6770; line-height: 25px;"
+                                          width="200" align="left">
+                                        1
+                                      </td>
+                                      <td style="width: 100px; font-weight: 400; color: #5b6770; line-height: 25px;"
+                                          width="100" align="left">
+                                        $0.00
+                                      </td>
+                                    </tr>
+                                    <!-- Item Extras Row End -->
+                        
+                                    <!-- Item Extras Row Start -->
+                                    <tr>
+                                      <td style="width: 300px; font-weight: 400; color: #c8102e; line-height: 25px; padding-left: 10px;"
+                                          width="300" align="left">
+                                        No Pickles
+                                      </td>
+                                      <td style="width: 200px; font-weight: 400; color: #5b6770; line-height: 25px;"
+                                          width="200" align="left">
+                        
+                                      </td>
+                                      <td style="width: 100px; font-weight: 400; color: #5b6770; line-height: 25px;"
+                                          width="100" align="left">
+                                        $0.00
+                                      </td>
+                                    </tr>
+                                    <!-- Item Extras Row End -->
+                        
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <!-- Single Item End-->
+                    
+                        <!-- Single Item Start -->
+                        <tr>
+                          <td align="center">
+                            <table style="border-collapse: collapse;" width="100%"
+                                    border="0" cellspacing="0"
+                                    cellpadding="0">
+                              <tr>
+                                <td class="additional-item"
+                                    style="padding-top: 25px; padding-right: 20px; padding-bottom: 25px; padding-left: 20px; border-top: 1px solid #d8d8d8;"
+                                    valign="top">
+                                  <table style="border-collapse: collapse;"
+                                          width="100%" border="0" cellspacing="0"
+                                          cellpadding="0">
+                        
+                                    <!-- Single Item Row Start -->
+                                    <tr>
+                                      <td style="width: 300px; font-weight: 400; color: #5b6770; line-height: 25px;"
+                                          width="300" align="left" valign="top">
+                                        Large Chick-fil-A Waffle Fries
+                                      </td>
+                                      <td style="width: 200px; font-weight: 400; color: #5b6770; line-height: 25px;"
+                                          width="200" align="left" valign="top">
+                                        1
+                                      </td>
+                                      <td style="width: 100px; font-weight: 400; color: #5b6770; line-height: 25px;"
+                                          width="100" align="left" valign="top">
+                                        $2.59
+                                      </td>
+                                    </tr>
+                                    <!-- Single Item Row End -->
+                        
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <!-- Single Item End-->
+                    
+                        <!-- Single Item Start -->
+                        <tr>
+                          <td align="center">
+                            <table style="border-collapse: collapse;" width="100%"
+                                    border="0" cellspacing="0"
+                                    cellpadding="0">
+                              <tr>
+                                <td class="additional-item"
+                                    style="padding-top: 25px; padding-right: 20px; padding-bottom: 25px; padding-left: 20px; border-top: 1px solid #d8d8d8;"
+                                    valign="top">
+                                  <table style="border-collapse: collapse;"
+                                          width="100%" border="0" cellspacing="0"
+                                          cellpadding="0">
+                        
+                                    <!-- Single Item Row Start -->
+                                    <tr>
+                                      <td style="width: 300px; font-weight: 400; color: #5b6770; line-height: 25px;"
+                                          width="300" align="left" valign="top">
+                                        Medium Coca-Cola Cherry
+                                      </td>
+                                      <td style="width: 200px; font-weight: 400; color: #5b6770; line-height: 25px;"
+                                          width="200" align="left" valign="top">
+                                        1
+                                      </td>
+                                      <td style="width: 100px; font-weight: 400; color: #5b6770; line-height: 25px;"
+                                          width="100" align="left" valign="top">
+                                        $1.89
+                                      </td>
+                                    </tr>
+                                    <!-- Single Item Row End -->
+                        
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <!-- Single Item End-->
+                    
+                        <!-- Total Amount Start -->
+                        <tr>
+                          <td align="right">
+                            <table style="border-collapse: collapse;" width="100%"
+                                    border="0" cellspacing="0"
+                                    cellpadding="0">
+                              <tr>
+                                <td class="total-amount"
+                                    style="padding-top: 60px; padding-right: 30px; padding-bottom: 60px; padding-left: 30px;"
+                                    valign="top">
+                                  <table style="border-collapse: collapse;"
+                                          width="100%" border="0" cellspacing="0"
+                                          cellpadding="0">
+                        
+                                    <!-- Total Amount Row Start -->
+                                    <tr>
+                                      <td style="font-weight: 600; color: #5b6770; line-height: 25px;"
+                                          width="300" align="right" valign="top">
+                                        Discounts
+                                      </td>
+                                      <td style="font-weight: 600; color: #5b6770; line-height: 25px;"
+                                          width="100" align="right" valign="top">
+                                        $1.89
+                                      </td>
+                                    </tr>
+                                    <!-- Total Amount  Row End -->
+                        
+                                    <!-- Total Amount Row Start -->
+                                    <tr>
+                                      <td style="font-weight: 600; color: #5b6770; line-height: 25px;"
+                                          width="300" align="right" valign="top">
+                                        Subtotal
+                                      </td>
+                                      <td style="font-weight: 600; color: #5b6770; line-height: 25px;"
+                                          width="100" align="right" valign="top">
+                                        $1.89
+                                      </td>
+                                    </tr>
+                                    <!-- Total Amount  Row End -->
+                        
+                                    <!-- Total Amount Row Start -->
+                                    <tr>
+                                      <td style="font-weight: 600; color: #5b6770; line-height: 25px;"
+                                          width="300" align="right" valign="top">
+                                        Tax
+                                      </td>
+                                      <td style="font-weight: 600; color: #5b6770; line-height: 25px;"
+                                          width="100" align="right" valign="top">
+                                        $1.89
+                                      </td>
+                                    </tr>
+                                    <!-- Total Amount  Row End -->
+                        
+                                    <!-- Total Amount Row Start -->
+                                    <tr>
+                                      <td style="font-weight: 600; color: #5b6770; line-height: 25px;"
+                                          width="300" align="right" valign="top">
+                                        Total
+                                      </td>
+                                      <td style="font-weight: 600; color: #5b6770; line-height: 25px;"
+                                          width="100" align="right" valign="top">
+                                        $1.89
+                                      </td>
+                                    </tr>
+                                    <!-- Total Amount  Row End -->
+                        
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <!-- Total Amount End -->
+                    
+                      </td>
+                    </tr>
+                    <!-- Menu Items End -->
+                   
+                    </table>
+                  </td>
+                </tr>
+                <!-- Inner Table Container End -->
+
+              </table>
+            </td>
+          </tr>
+          <!-- End Main Content -->
+          
+          <!-- Start Footer -->
+          <tr>
+            <td class="footer"
+                style="background-color: #ffffff; border-top: 1px solid #d8d8d8; padding-top: 50px; padding-right: 40px; padding-bottom: 55px; padding-left: 40px;"
+                valign="top" align="center">
+              <table style="border-collapse: collapse;"
+                width="100%" border="0" cellspacing="0"
+                cellpadding="0">
+                <tr>
+                  <td align="left">
+                    <table style="border-collapse: collapse;"
+                      width="100%" border="0" cellspacing="0"
+                      cellpadding="0">
+
+                      <!-- Socials Row Start -->
+                      <tr>
+                        <td align="center">
+                          <table style="border-collapse: collapse; width: 150px;"
+                            width="130" border="0"
+                            cellspacing="0"
+                            cellpadding="0">
+                            <tr>
+                              <td>
+                                <a href="#">
+                                  <img src="https://i.postimg.cc/3J8CNzbh/ig.png"
+                                       alt="Instagram Image"
+                                       style="border: none; clear: both; display: block; width: 30px; height: 30px;"
+                                       width="30" height="30"
+                                       border="0">
+                                </a>
+                              </td>
+                              <td style="padding-left: 20px;">
+                                <a href="#">
+                                  <img src="https://i.postimg.cc/XNckVnLx/fb.png"
+                                       alt="Facebook Image"
+                                       style="border: none; clear: both; display: block; width: 30px; height: 30px;"
+                                       width="30" height="30"
+                                       border="0">
+                                </a>
+                              </td>
+                              <td style="padding-left: 20px;">
+                                <a href="#">
+                                  <img src="https://i.postimg.cc/gJy8kKVr/twitter.png"
+                                       alt="Twitter Image"
+                                       style="border: none; clear: both; display: block; width: 30px; height: 30px;"
+                                       width="30" height="30"
+                                       border="0">
+                                </a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <!-- Socials Row End -->
+
+                      <!-- Terms Row Start -->
+                      <tr>
+                        <td style="padding-top: 30px; font-weight: 600; color: #5b6770; font-size: 13px;" align="center">
+                          <a href="#" style="font-weight: 600; color: #5b6770; text-decoration: none;">
+                            Terms
+                          </a>
+                          <span style="font-weight: 400; color: #5b6770">|</span>
+                          <a href="#" style="font-weight: 600; color: #5b6770; text-decoration: none;">
+                            Privacy
+                          </a>
+                        </td>
+                      </tr>
+                      <!-- Terms Row End -->
+
+                      <!-- Footer Info Row Start -->
+                      <tr>
+                        <td style="padding-top: 30px; font-weight: 400; color: #5b6770; font-size: 13px; line-height: 25px;"
+                        align="left">
+                          To make sure you receive Chick‑fil‑A® email updates, add <span>
+                            <a href="#" style="color: #0952ce; text-decoration: none;">one@email.chick‑fil‑a.com</a> 
+                          </span> to your email address book or
+                          personal whitelist.
+                          
+                          If you no longer wish to receive messages from Chick‑fil‑A®,
+                          you can unsubscribe by <a href="#" style="color: #c8102e; text-decoration: none;"> clicking here</a>. After unsubscribing,
+                          you will no longer receive any exclusive Chick‑fil‑A® email
+                          content such as special offers, event details or other
+                          marketing materials. However, you may continue to receive
+                          transactional emails such as electronic receipts. Please do
+                          not reply to this email.
+                          <br>
+                          <br>
+                          © 2022 CFA Properties, Inc. Chick‑fil‑A®, Chick‑fil‑A
+                          Stylized®, and Chick‑fil‑A One™ are registered trademarks of
+                          CFA Properties, Inc.
+                          <br>
+                          <br>
+                        </td>
+                      </tr>
+                      <!-- Footer Info Row End -->
+                    
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- End Footer -->
+
+        </table>
+        <!-- End of Container -->
+
+      </td>
+    </tr>
+  </table>
+  <!-- End HTML Email -->
+</body>
+</html>
