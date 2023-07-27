@@ -106,727 +106,721 @@
           width: 250px !important;
         }
       }
-      
-      /* Small devices (portrait tablets and large phones, 375px and down) */
-      @media only screen and (max-width: 375px) { 
-      }
     /* Media Queries End */
 
   </style>
 </head>
 <body style="margin: 0 !important; padding: 0 !important; background-color: #ffffff; font-family: 'Open Sans', 'Helvetica Neue', Helvetica,Arial, 'Lucida Grande', sans-serif;">
-  <script type="text/template">
 
-    <!-- Start HTML Email -->
-    <table role="presentation" width="100%" border="0" cellspacing="0"
-      cellpadding="0"
-      style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;">
-      <!-- Start of Container -->
-      <tr>
-        <td>
-          <table role="presentation" class="container" width="600" align="center" border="0" cellspacing="0" cellpadding="0" style="margin: 0 auto;">
+<script type="text/template">
 
-            <!-- Start Header Row -->
-            <tr>
-              <td 
-                class="header" style="height: 102px; padding: 0 10px;"
-                height="102" align="center">
-                <table role="presentation" style="border-collapse: collapse;"
-                  width="100%" border="0" cellspacing="0"
-                  cellpadding="0">
-                  <tr>
-                    <td align="left">
-                      <a href="{{ company.header_logo }}" target="_blank">
-                        <img
-                          src="https://i.postimg.cc/L6xk1vr1/logo.png"
-                          alt="Logo Image"
-                          style="border: none; clear: both; display: block; height: 60px; width: 60px;"
-                          width="70" height="70" border="0">
-                      </a>
-                    </td>
-                    <td class="header-gap"
-                      style="width: 300px;"></td>
-                    <td align="center" style="height: 102px;"
-                      height="102">
-                      <a href="{{ company.header_treats }}" target="_blank">
-                        <img
-                          src="https://i.postimg.cc/fT9CyC0Y/treats.jpg"
-                          alt="Treats Image"
-                          style="display: block; object-fit: cover;object-position: center; height: 60px; width: 70px;"
-                          height="60" width="70" border="0">
-                      </a>
-                    </td>
-                    <td class="header-gap-sm"
-                      style="width: 10px;" width="10">
-                    </td>
-                    <td align="center" style="height: 102px;"
-                      height="102">
-                      <a href="{{ company.header_profile }}" target="_blank">
-                        <img
-                          src="https://i.postimg.cc/DzX1Rhmr/profile.jpg"
-                          alt="Profile Image"
-                          style="display: block; object-fit: cover;object-position: center; height: 60px; width: 70px;"
-                          height="60" width="70" border="0">
-                      </a>
-                    </td>
-                    <td class="header-gap-sm"
-                      style="width: 10px;" width="10">
-                    </td>
-                    <td align="center" style="height: 102px;"
-                      height="102">
-                      <a href="{{ company.header_order }}" target="_blank">
-                        <img
-                          src="https://i.postimg.cc/Sx5WZRQQ/order.jpg"
-                          alt="Order Image"
-                          style="display: block; object-fit: cover;object-position: center; height: 60px; width: 70px;"
-                          height="60" width="70" border="0">
-                      </a>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-            <!-- End Header Row -->
+  <!-- Start HTML Email -->
+  <table role="presentation" width="100%" border="0" cellspacing="0"
+    cellpadding="0"
+    style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;">
+    <!-- Start of Container -->
+    <tr>
+      <td>
+        <table role="presentation" class="container" width="600" align="center" border="0" cellspacing="0" cellpadding="0" style="margin: 0 auto;">
 
-            <!-- Start Main Content -->
-            <tr>
-              <td class="outter-table"
-                style="padding: 10px; background-color: #f4f8f9; border-top: 1px solid #d8d8d8;"
-                valign="top">
-                <table role="presentation" style="border-collapse: collapse;" width="100%" border="0" cellspacing="0" cellpadding="0">
+          <!-- Start Header Row -->
+          <tr>
+            <td 
+              class="header" style="height: 102px; padding: 0 10px;"
+              height="102" align="center">
+              <table role="presentation" style="border-collapse: collapse;"
+                width="100%" border="0" cellspacing="0"
+                cellpadding="0">
+                <tr>
+                  <td align="left">
+                    <a href="{{ company.logo_link }}" target="_blank">
+                      <img
+                        src="{{ company.logo_image }}"
+                        alt="{{ company.logo_alt }}"
+                        style="border: none; clear: both; display: block; height: 60px; width: 60px;"
+                        width="70" height="70" border="0">
+                    </a>
+                  </td>
+                  <td class="header-gap"
+                    style="width: 300px;"></td>
+                  <td align="center" style="height: 102px;"
+                    height="102">
+                    <a href="{{ company.treats_link }}" target="_blank">
+                      <img
+                        src="{{ company.treats_image }}"
+                        alt="{{ company.treats_alt }}"
+                        style="display: block; object-fit: cover;object-position: center; height: 60px; width: 70px;"
+                        height="60" width="70" border="0">
+                    </a>
+                  </td>
+                  <td class="header-gap-sm"
+                    style="width: 10px;" width="10">
+                  </td>
+                  <td align="center" style="height: 102px;"
+                    height="102">
+                    <a href="{{ company.profile_link }}" target="_blank">
+                      <img
+                        src="{{ company.profile_image }}"
+                        alt="{{ company.profile_alt }}"
+                        style="display: block; object-fit: cover;object-position: center; height: 60px; width: 70px;"
+                        height="60" width="70" border="0">
+                    </a>
+                  </td>
+                  <td class="header-gap-sm"
+                    style="width: 10px;" width="10">
+                  </td>
+                  <td align="center" style="height: 102px;"
+                    height="102">
+                    <a href="{{ company.order_link }}" target="_blank">
+                      <img
+                        src="{{ company.order_image }}"
+                        alt="{{ company.order_alt }}"
+                        style="display: block; object-fit: cover;object-position: center; height: 60px; width: 70px;"
+                        height="60" width="70" border="0">
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- End Header Row -->
 
-                  <!-- Inner Table Container Start -->
-                  <tr>
-                    <td class="inner-table-container"
-                      style="padding-top: 70px; padding-bottom: 70px;   background-color: #ffffff;"
-                      align="center" valign="top">
-                      <table role="presentation" class="inner-table"
-                        style="border-collapse: collapse; width: 520px;"
-                        width="520" align="center" border="0" cellspacing="0"
-                        cellpadding="0">
+          <!-- Start Main Content -->
+          <tr>
+            <td class="outter-table"
+              style="padding: 10px; background-color: #f4f8f9; border-top: 1px solid #d8d8d8;"
+              valign="top">
+              <table role="presentation" style="border-collapse: collapse;" width="100%" border="0" cellspacing="0" cellpadding="0">
 
-                        <!-- Order Receipt Start -->
-                        <tr>
-                          <td style="padding-top: 20px;">
-                            <table role="presentation" style="border-collapse: collapse; width: 100%;  background-color: #ffffff;" width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
-                              <tr>
-                                <td
-                                  style="font-size: 14px; font-weight: 700; text-transform: uppercase; color: #c8102e;">
-                                  <img
-                                    src="https://i.postimg.cc/zG3CSKrP/receipt.jpg"
-                                    alt="Receipt Image"
-                                    style="display: block; border: none;"
-                                    width="180" height="11"
-                                    border="0">
-                                </td>
-                              </tr>
-                              <tr>
-                                <td class="receipt-greeting">
-                                  <h1
-                                  style="margin: 0; padding-top: 20px; font-size: 35px; font-weight: 700; color: #2a6185; font-family: 'Open Sans', 'Helvetica Neue', Helvetica,Arial, 'Lucida Grande', sans-serif;">It was great to see you, {{ customer.firstName }}</h1>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td class="receipt-info">
-                                  <p
-                                  style="margin: 0; padding: 20px 0; font-size: 16px; font-weight: 400; color: #5b6770; line-height: 25px; font-family: 'Open Sans', 'Helvetica Neue', Helvetica,Arial, 'Lucida Grande', sans-serif;">
-                                    Thanks for stopping by today. It's
-                                    always our pleasure to serve you. We
-                                    appreciate your loyalty and using
-                                    the Chick‑fil‑A® App.
-                                  </p>
-                                </td>
-                              </tr>
-                            </table>
-                          </td>
-                        </tr>
-                        <!-- Order Receipt End -->
+                <!-- Inner Table Container Start -->
+                <tr>
+                  <td class="inner-table-container"
+                    style="padding-top: 70px; padding-bottom: 70px;   background-color: #ffffff;"
+                    align="center" valign="top">
+                    <table role="presentation" class="inner-table"
+                      style="border-collapse: collapse; width: 520px;"
+                      width="520" align="center" border="0" cellspacing="0"
+                      cellpadding="0">
 
-                        <!-- Order Summary Start -->
-                        <tr>
-                          <td style="padding-top: 20px; background: #ffffff;">
-                            <table role="presentation" style="border-collapse: collapse; width: 100%;  background-color: #ffffff;" width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
-
-                              <!-- Order Title Summary Start -->
-                              <tr>
-                                <td style="padding: 20px 0; border-bottom: 1px solid #586770; ">
-                                  <table role="presentation" style="border-collapse: collapse; width: 100%;  background-color: #ffffff;" width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
-                                    <tr>
-                                      <td style="font-size: 14px; font-family: 'Open Sans', 'Helvetica Neue', Helvetica,Arial, 'Lucida Grande', sans-serif;">
-                                        <h3 
-                                          style="margin: 0; font-size: 20px; font-weight: 700; color: #2a6185;line-height: 20px;">
-                                          Order Summary
-                                        </h3>
-                                      </td>
-                                    </tr>
-                                  </table>
-                                </td>
-                              </tr>
-                              <!-- Order Title Summary End -->
-
-                              <!-- Order Customer Summary Start -->
-                              <tr>
-                                <td>
-                                  <h4 style="margin: 0; padding: 20px 0 3px;  font-size: 18px; font-weight: 700; color: #5b6770; line-height: 25px; font-family: 'Open Sans', 'Helvetica Neue', Helvetica,Arial, 'Lucida Grande', sans-serif;">
-                                    {{ customer.firstName }} {{ customer.lastName }}
-                                  </h4>
-                                  <table role="presentation" style="border-collapse: collapse;"
-                                    width="100%" border="0"
-                                    cellspacing="0" cellpadding="0">
-                                    <tr>
-                                      <td valign="top" align="left" style="width: 50%; font-size: 14px; font-family: 'Open Sans', 'Helvetica Neue', Helvetica,Arial, 'Lucida Grande', sans-serif;">
-                                        <p style="margin: 0; font-size: 16px; font-weight: 400; color: #5b6770; line-height: 25px;">{{ customer.order_date }}</p>
-                                      </td>
-                                      <td valign="top" align="left" style="width: 50%; font-size: 14px; font-family: 'Open Sans', 'Helvetica Neue', Helvetica,Arial, 'Lucida Grande', sans-serif;">
-                                        <p class="order-number" style="margin: 0; font-size: 16px; font-weight: 400; color: #5b6770; line-height: 25px;">Order Number: {{ customer.id }}</p>
-                                      </td>
-                                    </tr>
-                                  </table>
-                                </td>
-                              </tr>
-                              <!-- Order Customer Summary End -->
-
-                              <!-- Order Payment Summary Start -->
-                              <tr>
-                                <td>
-                                  <h4 style="margin: 0; padding: 20px 0 3px;  font-size: 18px; font-weight: 700; color: #5b6770; line-height: 25px; font-family: 'Open Sans', 'Helvetica Neue', Helvetica,Arial, 'Lucida Grande', sans-serif;">
-                                    Payment Method:
-                                  </h4>
-                                  <table role="presentation" style="border-collapse: collapse;"
-                                    width="100%" border="0"
-                                    cellspacing="0" cellpadding="0">
-                                    <tr>
-                                      <td style="width: 50%; font-size: 14px; font-family: 'Open Sans', 'Helvetica Neue', Helvetica,Arial, 'Lucida Grande', sans-serif;">
-                                        <p style="margin: 0; font-size: 16px; font-weight: 400; color: #5b6770; line-height: 25px;">{{ customer.payment_method }}</p>
-                                      </td>
-                                      <td style="width: 50%; font-size: 14px; font-family: 'Open Sans', 'Helvetica Neue', Helvetica,Arial, 'Lucida Grande', sans-serif;">
-                                        &nbsp;
-                                      </td>
-                                    </tr>
-                                  </table>
-                                </td>
-                              </tr>
-                              <!-- Order Payment Summary End -->
-
-                              <!-- Order Contact Summary Start -->
-                              <tr>
-                                <td>
-                                  <h4 style="margin: 0; padding: 20px 0 3px;  font-size: 18px; font-weight: 700; color: #5b6770; line-height: 25px; font-family: 'Open Sans', 'Helvetica Neue', Helvetica,Arial, 'Lucida Grande', sans-serif;">
-                                    Restaurant
-                                  </h4>
-                                  <table class="contact-summary" role="presentation" style="border-collapse: collapse;"
-                                    width="100%" border="0"
-                                    cellspacing="0" cellpadding="0">
-                                    <tr>
-                                      <td class="address-info" valign="top" style="width: 50%; font-size: 14px; font-family: 'Open Sans', 'Helvetica Neue', Helvetica,Arial, 'Lucida Grande', sans-serif;">
-                                        <p style="margin: 0; font-size: 16px; font-weight: 400; color: #5b6770; line-height: 20px;">{{ company.address }} {{ company.city }}, {{ company.state }} {{ company.zipcode }}</p>
-                                      </td>
-                                      <td class="phone-info" valign="top" style="width: 50%; font-size: 14px; font-family: 'Open Sans', 'Helvetica Neue', Helvetica,Arial, 'Lucida Grande', sans-serif;">
-                                        <p style="margin: 0; font-size: 16px; font-weight: 400; color: #5b6770; line-height: 20px;"> {{ company.phone }}</p>
-                                      </td>
-                                    </tr>
-                                  </table>
-                                </td>
-                              </tr>
-                              <!-- Order Contact Summary End -->
-
-                            </table>
-                          </td>
-                        </tr>
-                        <!-- Order Summary End -->
-
-                        <!-- Menu Items Start -->
-                        <tr>
-                          <td
-                            style="background-color: #ffffff; padding-top: 40px;"
-                            align="center">
-
-                            <!-- Menu Items Header Start-->
+                      <!-- Order Receipt Start -->
+                      <tr>
+                        <td style="padding-top: 20px;">
+                          <table role="presentation" style="border-collapse: collapse; width: 100%;  background-color: #ffffff;" width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
                             <tr>
                               <td
-                                style="padding-bottom: 10px;"
-                                align="center">
-                                <table role="presentation"
-                                  style="border-collapse: collapse;"
-                                  width="100%" border="0"
-                                  cellspacing="0" cellpadding="0">
-                                  <tr>
-                                    <td class="menu-header"
-                                      style="padding: 10px; border-bottom: 1px solid #586770; background-color: #f4f4f4">
-                                      <table role="presentation"
-                                        style="border-collapse: collapse;"
-                                        width="100%" border="0"
-                                        cellspacing="0"
-                                        cellpadding="0">
-                                        <tr>
-                                          <td
-                                            class="item-name"
-                                            style="width: 70%; font-size: 16px; font-weight: 700; color: #5b6770; line-height: 25px; text-align: left;"
-                                            width="70%"
-                                            align="left" valign="top">
-                                            Item Name
-                                          </td>
-                                          <td
-                                            style="width: 15%; font-size: 16px; font-weight: 700; color: #5b6770; line-height: 25px; text-align: center;"
-                                            width="15%"
-                                            align="center" valign="top">
-                                            Qty
-                                          </td>
-                                          <td
-                                            style="width: 15%; font-size: 16px; font-weight: 700; color: #5b6770; line-height: 25px;text-align: center;"
-                                            width="15%"
-                                            align="center" valign="top">
-                                            Price
-                                          </td>
-                                        </tr>
-                                      </table>
-                                    </td>
-                                  </tr>
-                                </table>
+                                style="font-size: 14px; font-weight: 700; text-transform: uppercase; color: #c8102e;">
+                                <img
+                                  src="https://i.postimg.cc/zG3CSKrP/receipt.jpg"
+                                  alt="Receipt Image"
+                                  style="display: block; border: none;"
+                                  width="180" height="11"
+                                  border="0">
                               </td>
                             </tr>
-                            <!-- Menu Items Header End-->
-                          
-                            <!-- Single Item Start --> 
-                            {% assign items_total = order.items_total | split: ", " %}
-                            {% assign items_titles = order.items_titles | split: ", " %}
-                            {% assign items_condiment1 = order.items_condiment1 | split: ", " %}
-                            {% assign items_condiment2 = order.items_condiment2 | split: ", " %}
-                            {% assign titles_quantities = order.titles_quantities | split: ", " %}
-                            {% assign condiment1_quantities = order.condiment1_quantities | split: ", " %}
-                            {% assign condiment2_quantities = order.condiment2_quantities | split: ", " %}
-                            {% assign items_prices = order.items_prices | split: ", " %}
-                            {% assign items_voids = order.items_voids | split: ", " %}
-                            {% assign discount = order.discount | split: ", " %}
-                            {% assign subtotal = order.subtotal | split: ", " %}
-                            {% assign tax = order.tax | split: ", " %}
-                            {% assign total = order.total | split: ", " %}
-
-
-                            {% for item in items_total %}
-                            <!-- Item Group Start -->
                             <tr>
-                              <td 
-                                style="padding: 10px; border-bottom: 1px solid #586770;" align="center">
-                                <table role="presentation"
-                                  style="border-collapse: collapse;"
-                                  width="100%" border="0"
-                                  cellspacing="0" cellpadding="0">
+                              <td class="receipt-greeting">
+                                <h1
+                                style="margin: 0; padding-top: 20px; font-size: 35px; font-weight: 700; color: #2a6185; font-family: 'Open Sans', 'Helvetica Neue', Helvetica,Arial, 'Lucida Grande', sans-serif;">It was great to see you, {{ customer.firstName }}</h1>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="receipt-info">
+                                <p
+                                style="margin: 0; padding: 20px 0; font-size: 16px; font-weight: 400; color: #5b6770; line-height: 25px; font-family: 'Open Sans', 'Helvetica Neue', Helvetica,Arial, 'Lucida Grande', sans-serif;">
+                                  Thanks for stopping by today. It's
+                                  always our pleasure to serve you. We
+                                  appreciate your loyalty and using
+                                  the Chick‑fil‑A® App.
+                                </p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <!-- Order Receipt End -->
+
+                      <!-- Order Summary Start -->
+                      <tr>
+                        <td style="padding-top: 20px; background: #ffffff;">
+                          <table role="presentation" style="border-collapse: collapse; width: 100%;  background-color: #ffffff;" width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+
+                            <!-- Order Title Summary Start -->
+                            <tr>
+                              <td style="padding: 20px 0; border-bottom: 1px solid #586770; ">
+                                <table role="presentation" style="border-collapse: collapse; width: 100%;  background-color: #ffffff;" width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
                                   <tr>
-                                    <td class="item"
-                                      style="width: 315px;"
-                                      width="315"
-                                      align="left">
-                                      <table role="presentation"
-                                        style="border-collapse: collapse;"
-                                        width="95%" border="0"
-                                        cellspacing="0"
-                                        cellpadding="0">
-
-                                        <!-- Item Title Start -->
-                                        <tr>
-                                          <td
-                                            class="item-title"
-                                            style="width: 70%; font-size: 18px; padding-bottom: 5px; font-weight: 700; color: #3e6a91; text-align: left; line-height: 25px;"
-                                            align="left"
-                                            valign="top">
-                                            {{items_titles[forloop.index0]}} 
-                                          </td>
-                                        </tr>
-                                        <!-- Item Title End -->
-                                      </table>
-                                    </td>
-
-                                    <!-- Item Quantity Start -->
-                                    <td
-                                      style="width: 15%; font-size: 16px; padding-left: 10px; padding-bottom: 5px; font-weight: 400; color: #5b6770; line-height: 25px; text-align: center;" align="center"
-                                      valign="top">
-                                      {{titles_quantities[forloop.index0]}} 
-                                    </td>
-                                    <!-- Item Quantity End -->
-
-                                    <!-- Item Price Start -->
-                                    <td
-                                      style="width: 15%; font-size: 16px; font-weight: 400; color: #5b6770; padding-bottom: 5px; line-height: 25px; text-align: center;"
-                                      width="15%" align="center"
-                                      valign="top">
-                                      {{items_prices[forloop.index0]}}
-                                    </td>
-                                    <!-- Item Price End -->
-
-                                  </tr>
-                                  <!-- Single Item Row End -->
-
-                                  <!-- Single Item Condiments 1 Row Start -->
-                                  <tr>
-                                    <td class="item-extra"
-                                      style="width: 315px;"
-                                      width="315"
-                                      align="left">
-                                      <table role="presentation"
-                                        style="border-collapse: collapse;"
-                                        width="95%" border="0"
-                                        cellspacing="0"
-                                        cellpadding="0">
-
-                                        <!-- Item Condiments 1 Title Start -->
-                                        <tr>
-                                          <td
-                                            class="item-title"
-                                            style="width: 70%; font-size: 16px; padding-bottom: 5px; font-weight: 400; color: #5b6770; text-align: left; line-height: 25px;"
-                                            width="70%"
-                                            align="left"
-                                            valign="top">
-                                            {{items_condiment1[forloop.index0]}}
-                                          </td>
-                                        </tr>
-                                        <!-- Item Condiments 1 Title End -->
-                                      
-                                      </table>
-                                    </td>
-
-                                    <!-- Item Condiments 1 Quantity Start -->
-                                    <td
-                                      style="width: 15%; font-size: 16px; padding-left: 10px; padding-bottom: 5px; font-weight: 400; color: #5b6770; line-height: 25px; text-align: center;" align="center"
-                                      width="15%"
-                                      valign="top">
-                                      {{condiment1_quantities[forloop.index0]}}
-                                    </td>
-                                    <!-- Item Condiments 1 Quantity End -->
-
-                                  </tr>
-                                  <!-- Single Item Condiments 1 Row End -->
-                                  
-                                  <!-- Single Item Condiments 2 Row Start -->
-                                  <tr>
-                                    <td class="item-extra"
-                                      style="width: 315px;"
-                                      width="315"
-                                      align="left">
-                                      <table role="presentation"
-                                        style="border-collapse: collapse;"
-                                        width="95%" border="0"
-                                        cellspacing="0"
-                                        cellpadding="0">
-
-                                        <!-- Item Condiments 2 Title Start -->
-                                        <tr>
-                                          <td
-                                            class="item-title"
-                                            style="width: 70%; font-size: 16px; padding-bottom: 5px; font-weight: 400; color: #5b6770; text-align: left; line-height: 25px;"
-                                            align="left"
-                                            width="70%"
-                                            valign="top">
-                                            {{items_condiment2[forloop.index0]}}
-                                          </td>
-                                        </tr>
-                                        <!-- Item Condiments 2 Title End -->
-                                      
-                                      </table>
-                                    </td>
-
-                                    <!-- Item Condiments 2 Quantity Start -->
-                                    <td
-                                      style="width: 15%; font-size: 16px; padding-left: 10px; padding-bottom: 5px; font-weight: 400; color: #5b6770; line-height: 25px; text-align: center;" align="center"
-                                      width="15%"
-                                      valign="top">
-                                      {{condiment2_quantities[forloop.index0]}}
-                                    </td>
-                                    <!-- Item Condiments 2 Quantity End -->
-
-                                  </tr>
-                                  <!-- Single Item Condiments 2 Row End -->
-
-                                  <!-- Single Item Void Row Start -->
-                                  <tr>
-                                    <td class="item-extra"
-                                      style="width: 315px;"
-                                      width="315"
-                                      align="left">
-                                      <table role="presentation"
-                                        style="border-collapse: collapse;"
-                                        width="95%" border="0"
-                                        cellspacing="0"
-                                        cellpadding="0">
-                                        <!-- Item Void Title Start -->
-                                        <tr>
-                                          <td
-                                            class="item-title"
-                                            style="width: 70%; font-size: 16px; padding-bottom: 5px; font-weight: 400; color: red; text-align: left; line-height: 25px;"
-                                            align="left"
-                                            width="70%"
-                                            valign="top">
-                                           {{items_voids[forloop.index0]}}
-                                          </td>
-                                        </tr>
-                                        <!-- Item Void Title End -->
-
-                                      </table>
+                                    <td style="font-size: 14px; font-family: 'Open Sans', 'Helvetica Neue', Helvetica,Arial, 'Lucida Grande', sans-serif;">
+                                      <h3 
+                                        style="margin: 0; font-size: 20px; font-weight: 700; color: #2a6185;line-height: 20px;">
+                                        Order Summary
+                                      </h3>
                                     </td>
                                   </tr>
-                                  <!-- Single Item Void Row End -->
-
                                 </table>
                               </td>
                             </tr>
-                            {% endfor %}
-                            <!-- Item Group End-->
+                            <!-- Order Title Summary End -->
 
-                            
+                            <!-- Order Customer Summary Start -->
+                            <tr>
+                              <td>
+                                <h4 style="margin: 0; padding: 20px 0 3px;  font-size: 18px; font-weight: 700; color: #5b6770; line-height: 25px; font-family: 'Open Sans', 'Helvetica Neue', Helvetica,Arial, 'Lucida Grande', sans-serif;">
+                                  {{ customer.firstName }} {{ customer.lastName }}
+                                </h4>
+                                <table role="presentation" style="border-collapse: collapse;"
+                                  width="100%" border="0"
+                                  cellspacing="0" cellpadding="0">
+                                  <tr>
+                                    <td valign="top" align="left" style="width: 50%; font-size: 14px; font-family: 'Open Sans', 'Helvetica Neue', Helvetica,Arial, 'Lucida Grande', sans-serif;">
+                                      <p style="margin: 0; font-size: 16px; font-weight: 400; color: #5b6770; line-height: 25px;">{{ customer.order_date }}</p>
+                                    </td>
+                                    <td valign="top" align="left" style="width: 50%; font-size: 14px; font-family: 'Open Sans', 'Helvetica Neue', Helvetica,Arial, 'Lucida Grande', sans-serif;">
+                                      <p class="order-number" style="margin: 0; font-size: 16px; font-weight: 400; color: #5b6770; line-height: 25px;">Order Number: {{ customer.id }}</p>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                            <!-- Order Customer Summary End -->
 
-                          <!-- Total Amount Start -->
+                            <!-- Order Payment Summary Start -->
+                            <tr>
+                              <td>
+                                <h4 style="margin: 0; padding: 20px 0 3px;  font-size: 18px; font-weight: 700; color: #5b6770; line-height: 25px; font-family: 'Open Sans', 'Helvetica Neue', Helvetica,Arial, 'Lucida Grande', sans-serif;">
+                                  Payment Method:
+                                </h4>
+                                <table role="presentation" style="border-collapse: collapse;"
+                                  width="100%" border="0"
+                                  cellspacing="0" cellpadding="0">
+                                  <tr>
+                                    <td style="width: 50%; font-size: 14px; font-family: 'Open Sans', 'Helvetica Neue', Helvetica,Arial, 'Lucida Grande', sans-serif;">
+                                      <p style="margin: 0; font-size: 16px; font-weight: 400; color: #5b6770; line-height: 25px;">{{ customer.payment_method }}</p>
+                                    </td>
+                                    <td style="width: 50%; font-size: 14px; font-family: 'Open Sans', 'Helvetica Neue', Helvetica,Arial, 'Lucida Grande', sans-serif;">
+                                      &nbsp;
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                            <!-- Order Payment Summary End -->
+
+                            <!-- Order Contact Summary Start -->
+                            <tr>
+                              <td>
+                                <h4 style="margin: 0; padding: 20px 0 3px;  font-size: 18px; font-weight: 700; color: #5b6770; line-height: 25px; font-family: 'Open Sans', 'Helvetica Neue', Helvetica,Arial, 'Lucida Grande', sans-serif;">
+                                  Restaurant
+                                </h4>
+                                <table class="contact-summary" role="presentation" style="border-collapse: collapse;"
+                                  width="100%" border="0"
+                                  cellspacing="0" cellpadding="0">
+                                  <tr>
+                                    <td class="address-info" valign="top" style="width: 50%; font-size: 14px; font-family: 'Open Sans', 'Helvetica Neue', Helvetica,Arial, 'Lucida Grande', sans-serif;">
+                                      <p style="margin: 0; font-size: 16px; font-weight: 400; color: #5b6770; line-height: 20px;">{{ company.address }} {{ company.city }}, {{ company.state }} {{ company.zipcode }}</p>
+                                    </td>
+                                    <td class="phone-info" valign="top" style="width: 50%; font-size: 14px; font-family: 'Open Sans', 'Helvetica Neue', Helvetica,Arial, 'Lucida Grande', sans-serif;">
+                                      <p style="margin: 0; font-size: 16px; font-weight: 400; color: #5b6770; line-height: 20px;"> {{ company.phone }}</p>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                            <!-- Order Contact Summary End -->
+
+                          </table>
+                        </td>
+                      </tr>
+                      <!-- Order Summary End -->
+
+                      <!-- Menu Items Start -->
+                      <tr>
+                        <td
+                          style="background-color: #ffffff; padding-top: 40px;"
+                          align="center">
+
+                          <!-- Menu Items Header Start-->
                           <tr>
-                            <td 
-                              style="padding-top: 50px; padding-bottom: 0px;">
+                            <td
+                              style="padding-bottom: 10px;"
+                              align="center">
                               <table role="presentation"
                                 style="border-collapse: collapse;"
                                 width="100%" border="0"
                                 cellspacing="0" cellpadding="0">
                                 <tr>
-                                  <td 
-                                    class="total-amount"
-                                    style="text-align: right;"
-                                    align="right"
-                                    valign="top">
+                                  <td class="menu-header"
+                                    style="padding: 10px; border-bottom: 1px solid #586770; background-color: #f4f4f4">
                                     <table role="presentation"
                                       style="border-collapse: collapse;"
                                       width="100%" border="0"
                                       cellspacing="0"
                                       cellpadding="0">
-
-                                      <!-- Discounts Row Start -->
                                       <tr>
                                         <td
-                                          style="width: 80%; padding-right: 10px; padding-bottom: 5px; font-weight: 600; color: #5b6770; line-height: 25px; text-align: right;"
-                                          align="right"
-                                          width="80%"
-                                          valign="top">
-                                          Discounts:
+                                          class="item-name"
+                                          style="width: 70%; font-size: 16px; font-weight: 700; color: #5b6770; line-height: 25px; text-align: left;"
+                                          width="70%"
+                                          align="left" valign="top">
+                                          Item Name
                                         </td>
                                         <td
-                                          style="width: 20%; padding-bottom: 5px; font-weight: 600; color: #5b6770; line-height: 25px; text-align: center;"
-                                          width="20%"
-                                          align="center"
-                                          valign="top">
-                                          (${{discount}})
+                                          style="width: 15%; font-size: 16px; font-weight: 700; color: #5b6770; line-height: 25px; text-align: center;"
+                                          width="15%"
+                                          align="center" valign="top">
+                                          Qty
+                                        </td>
+                                        <td
+                                          style="width: 15%; font-size: 16px; font-weight: 700; color: #5b6770; line-height: 25px;text-align: center;"
+                                          width="15%"
+                                          align="center" valign="top">
+                                          Price
                                         </td>
                                       </tr>
-                                      <!-- Discounts Row End -->
-                                      
-                                      <!-- Subtotal Row Start -->
-                                      <tr>
-                                        <td
-                                          style="width: 80%; padding-right: 10px; padding-bottom: 5px; font-weight: 600; color: #5b6770; line-height: 25px; text-align: right;"
-                                          align="center"
-                                          width="80%"
-                                          valign="top">
-                                          Subtotal:
-                                        </td>
-                                        <td
-                                          style="width: 20%; padding-bottom: 5px; font-weight: 600; color: #5b6770; line-height: 25px; text-align: center;"
-                                          width="20%"
-                                          align="center"
-                                          valign="top">
-                                          ${{subtotal}}
-                                        </td>
-                                      </tr>
-                                      <!-- Subtotal Row End -->
-
-                                      <!-- Tax Row Start -->
-                                      <tr>
-                                        <td
-                                          style="width: 80%; padding-right: 10px; padding-bottom: 5px; font-weight: 600; color: #5b6770; line-height: 25px; text-align: right;"
-                                          width="80%"
-                                          align="right"
-                                          valign="top">
-                                          Tax:
-                                        </td>
-                                        <td
-                                          style="width: 20%; padding-bottom: 5px; font-weight: 600; color: #5b6770; line-height: 25px; text-align: center;"
-                                          width="20%"
-                                          align="center"
-                                          valign="top">
-                                          ${{tax}}
-                                        </td>
-                                      </tr>
-                                      <!-- Tax Row End -->
-
-                                      <!-- Total Row Start -->
-                                      <tr>
-                                        <td
-                                          style="width: 80%; padding-right: 10px; padding-bottom: 5px; font-weight: 600; color: #5b6770; line-height: 25px; text-align: right;"
-                                          width="80%"
-                                          align="right"
-                                          valign="top">
-                                          Total:
-                                        </td>
-                                        <td
-                                          style="width: 20%; padding-bottom: 5px; font-weight: 600; color: #5b6770; line-height: 25px; text-align: center;"
-                                          width="20%"
-                                          align="center"
-                                          valign="top">
-                                          ${{total}}
-                                        </td>
-                                      </tr>
-                                      <!-- Total Row End -->
-
                                     </table>
                                   </td>
                                 </tr>
                               </table>
                             </td>
                           </tr>
-                          <!-- Total Amount End -->
+                          <!-- Menu Items Header End-->
+                        
+                          <!-- Single Item Start --> 
+                          {% assign items_total = order.items_total | split: ", " %}
+                          {% assign items_titles = order.items_titles | split: ", " %}
+                          {% assign items_condiment1 = order.items_condiment1 | split: ", " %}
+                          {% assign items_condiment2 = order.items_condiment2 | split: ", " %}
+                          {% assign titles_quantities = order.titles_quantities | split: ", " %}
+                          {% assign condiment1_quantities = order.condiment1_quantities | split: ", " %}
+                          {% assign condiment2_quantities = order.condiment2_quantities | split: ", " %}
+                          {% assign items_prices = order.items_prices | split: ", " %}
+                          {% assign items_voids = order.items_voids | split: ", " %}
+                          {% assign discount = order.discount | split: ", " %}
+                          {% assign subtotal = order.subtotal | split: ", " %}
+                          {% assign tax = order.tax | split: ", " %}
+                          {% assign total = order.total | split: ", " %}
 
-                          </td>
-                        </tr>
-                        <!-- Menu Items End -->
 
-                      </table>
-                    </td>
-                  </tr>
-                  <!-- Inner Table Container End -->
+                          <!-- Item Group Start -->
+                          {% for item in items_total %}
+                          <tr>
+                            <td 
+                              style="padding: 10px; border-bottom: 1px solid #586770;" align="center">
+                              <table role="presentation"
+                                style="border-collapse: collapse;"
+                                width="100%" border="0"
+                                cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td class="item"
+                                    style="width: 315px;"
+                                    width="315"
+                                    align="left">
+                                    <table role="presentation"
+                                      style="border-collapse: collapse;"
+                                      width="95%" border="0"
+                                      cellspacing="0"
+                                      cellpadding="0">
 
-                </table>
-              </td>
-            </tr>
-            <!-- End Main Content -->
+                                      <!-- Item Title Start -->
+                                      <tr>
+                                        <td
+                                          class="item-title"
+                                          style="width: 70%; font-size: 18px; padding-bottom: 5px; font-weight: 700; color: #3e6a91; text-align: left; line-height: 25px;"
+                                          align="left"
+                                          valign="top">
+                                          {{items_titles[forloop.index0]}} 
+                                        </td>
+                                      </tr>
+                                      <!-- Item Title End -->
+                                    </table>
+                                  </td>
 
-            <!-- Start Footer -->
-            <tr>
-              <td class="footer"
-                style="background-color: #ffffff; border-top: 1px solid #d8d8d8; padding-top: 50px; padding-right: 40px; padding-bottom: 55px; padding-left: 40px;"
-                valign="top" align="center">
-                <table role="presentation" style="border-collapse: collapse;" width="100%"
-                  border="0" cellspacing="0" cellpadding="0">
-                  <tr>
-                    <td align="left">
-                      <table role="presentation" style="border-collapse: collapse;"
-                        width="100%" border="0" cellspacing="0"
-                        cellpadding="0">
+                                  <!-- Item Quantity Start -->
+                                  <td
+                                    style="width: 15%; font-size: 16px; padding-left: 10px; padding-bottom: 5px; font-weight: 400; color: #5b6770; line-height: 25px; text-align: center;" align="center"
+                                    valign="top">
+                                    {{titles_quantities[forloop.index0]}} 
+                                  </td>
+                                  <!-- Item Quantity End -->
 
-                        <!-- Socials Row Start -->
+                                  <!-- Item Price Start -->
+                                  <td
+                                    style="width: 15%; font-size: 16px; font-weight: 400; color: #5b6770; padding-bottom: 5px; line-height: 25px; text-align: center;"
+                                    width="15%" align="center"
+                                    valign="top">
+                                    {{items_prices[forloop.index0]}}
+                                  </td>
+                                  <!-- Item Price End -->
+
+                                </tr>
+                                <!-- Single Item Row End -->
+
+                                <!-- Single Item Condiments 1 Row Start -->
+                                <tr>
+                                  <td class="item-extra"
+                                    style="width: 315px;"
+                                    width="315"
+                                    align="left">
+                                    <table role="presentation"
+                                      style="border-collapse: collapse;"
+                                      width="95%" border="0"
+                                      cellspacing="0"
+                                      cellpadding="0">
+
+                                      <!-- Item Condiments 1 Title Start -->
+                                      <tr>
+                                        <td
+                                          class="item-title"
+                                          style="width: 70%; font-size: 16px; padding-bottom: 5px; font-weight: 400; color: #5b6770; text-align: left; line-height: 25px;"
+                                          width="70%"
+                                          align="left"
+                                          valign="top">
+                                          {{items_condiment1[forloop.index0]}}
+                                        </td>
+                                      </tr>
+                                      <!-- Item Condiments 1 Title End -->
+                                    
+                                    </table>
+                                  </td>
+
+                                  <!-- Item Condiments 1 Quantity Start -->
+                                  <td
+                                    style="width: 15%; font-size: 16px; padding-left: 10px; padding-bottom: 5px; font-weight: 400; color: #5b6770; line-height: 25px; text-align: center;" align="center"
+                                    width="15%"
+                                    valign="top">
+                                    {{condiment1_quantities[forloop.index0]}}
+                                  </td>
+                                  <!-- Item Condiments 1 Quantity End -->
+
+                                </tr>
+                                <!-- Single Item Condiments 1 Row End -->
+                                
+                                <!-- Single Item Condiments 2 Row Start -->
+                                <tr>
+                                  <td class="item-extra"
+                                    style="width: 315px;"
+                                    width="315"
+                                    align="left">
+                                    <table role="presentation"
+                                      style="border-collapse: collapse;"
+                                      width="95%" border="0"
+                                      cellspacing="0"
+                                      cellpadding="0">
+
+                                      <!-- Item Condiments 2 Title Start -->
+                                      <tr>
+                                        <td
+                                          class="item-title"
+                                          style="width: 70%; font-size: 16px; padding-bottom: 5px; font-weight: 400; color: #5b6770; text-align: left; line-height: 25px;"
+                                          align="left"
+                                          width="70%"
+                                          valign="top">
+                                          {{items_condiment2[forloop.index0]}}
+                                        </td>
+                                      </tr>
+                                      <!-- Item Condiments 2 Title End -->
+                                    
+                                    </table>
+                                  </td>
+
+                                  <!-- Item Condiments 2 Quantity Start -->
+                                  <td
+                                    style="width: 15%; font-size: 16px; padding-left: 10px; padding-bottom: 5px; font-weight: 400; color: #5b6770; line-height: 25px; text-align: center;" align="center"
+                                    width="15%"
+                                    valign="top">
+                                    {{condiment2_quantities[forloop.index0]}}
+                                  </td>
+                                  <!-- Item Condiments 2 Quantity End -->
+
+                                </tr>
+                                <!-- Single Item Condiments 2 Row End -->
+
+                                <!-- Single Item Void Row Start -->
+                                <tr>
+                                  <td class="item-extra"
+                                    style="width: 315px;"
+                                    width="315"
+                                    align="left">
+                                    <table role="presentation"
+                                      style="border-collapse: collapse;"
+                                      width="95%" border="0"
+                                      cellspacing="0"
+                                      cellpadding="0">
+                                      <!-- Item Void Title Start -->
+                                      <tr>
+                                        <td
+                                          class="item-title"
+                                          style="width: 70%; font-size: 16px; padding-bottom: 5px; font-weight: 400; color: red; text-align: left; line-height: 25px;"
+                                          align="left"
+                                          width="70%"
+                                          valign="top">
+                                          {{items_voids[forloop.index0]}}
+                                        </td>
+                                      </tr>
+                                      <!-- Item Void Title End -->
+
+                                    </table>
+                                  </td>
+                                </tr>
+                                <!-- Single Item Void Row End -->
+
+                              </table>
+                            </td>
+                          </tr>
+                          {% endfor %}
+                          <!-- Item Group End-->
+
+                          
+
+                        <!-- Total Amount Start -->
                         <tr>
-                          <td align="center">
+                          <td 
+                            style="padding-top: 50px; padding-bottom: 0px;">
                             <table role="presentation"
-                              style="border-collapse: collapse; width: 150px;"
-                              width="130" border="0" cellspacing="0"
-                              cellpadding="0">
+                              style="border-collapse: collapse;"
+                              width="100%" border="0"
+                              cellspacing="0" cellpadding="0">
                               <tr>
-                                <td>
-                                  <a href="#" target="_blank">
-                                    <img
-                                      src="https://i.postimg.cc/3J8CNzbh/ig.png"
-                                      alt="Instagram Image"
-                                      style="border: none; clear: both; display: block; width: 30px; height: 30px;"
-                                      width="30" height="30"
-                                      border="0">
-                                  </a>
-                                </td>
-                                <td style="padding-left: 20px;">
-                                  <a href="#" target="_blank">
-                                    <img
-                                      src="https://i.postimg.cc/XNckVnLx/fb.png"
-                                      alt="Facebook Image"
-                                      style="border: none; clear: both; display: block; width: 30px; height: 30px;"
-                                      width="30" height="30"
-                                      border="0">
-                                  </a>
-                                </td>
-                                <td style="padding-left: 20px;">
-                                  <a href="#" target="_blank" target="_blank">
-                                    <img
-                                      src="https://i.postimg.cc/gJy8kKVr/twitter.png"
-                                      alt="Twitter Image"
-                                      style="border: none; clear: both; display: block; width: 30px; height: 30px;"
-                                      width="30" height="30"
-                                      border="0">
-                                  </a>
+                                <td 
+                                  class="total-amount"
+                                  style="text-align: right;"
+                                  align="right"
+                                  valign="top">
+                                  <table role="presentation"
+                                    style="border-collapse: collapse;"
+                                    width="100%" border="0"
+                                    cellspacing="0"
+                                    cellpadding="0">
+
+                                    <!-- Discounts Row Start -->
+                                    <tr>
+                                      <td
+                                        style="width: 80%; padding-right: 10px; padding-bottom: 5px; font-weight: 600; color: #5b6770; line-height: 25px; text-align: right;"
+                                        align="right"
+                                        width="80%"
+                                        valign="top">
+                                        Discounts:
+                                      </td>
+                                      <td
+                                        style="width: 20%; padding-bottom: 5px; font-weight: 600; color: #5b6770; line-height: 25px; text-align: center;"
+                                        width="20%"
+                                        align="center"
+                                        valign="top">
+                                        (${{discount}})
+                                      </td>
+                                    </tr>
+                                    <!-- Discounts Row End -->
+                                    
+                                    <!-- Subtotal Row Start -->
+                                    <tr>
+                                      <td
+                                        style="width: 80%; padding-right: 10px; padding-bottom: 5px; font-weight: 600; color: #5b6770; line-height: 25px; text-align: right;"
+                                        align="center"
+                                        width="80%"
+                                        valign="top">
+                                        Subtotal:
+                                      </td>
+                                      <td
+                                        style="width: 20%; padding-bottom: 5px; font-weight: 600; color: #5b6770; line-height: 25px; text-align: center;"
+                                        width="20%"
+                                        align="center"
+                                        valign="top">
+                                        ${{subtotal}}
+                                      </td>
+                                    </tr>
+                                    <!-- Subtotal Row End -->
+
+                                    <!-- Tax Row Start -->
+                                    <tr>
+                                      <td
+                                        style="width: 80%; padding-right: 10px; padding-bottom: 5px; font-weight: 600; color: #5b6770; line-height: 25px; text-align: right;"
+                                        width="80%"
+                                        align="right"
+                                        valign="top">
+                                        Tax:
+                                      </td>
+                                      <td
+                                        style="width: 20%; padding-bottom: 5px; font-weight: 600; color: #5b6770; line-height: 25px; text-align: center;"
+                                        width="20%"
+                                        align="center"
+                                        valign="top">
+                                        ${{tax}}
+                                      </td>
+                                    </tr>
+                                    <!-- Tax Row End -->
+
+                                    <!-- Total Row Start -->
+                                    <tr>
+                                      <td
+                                        style="width: 80%; padding-right: 10px; padding-bottom: 5px; font-weight: 600; color: #5b6770; line-height: 25px; text-align: right;"
+                                        width="80%"
+                                        align="right"
+                                        valign="top">
+                                        Total:
+                                      </td>
+                                      <td
+                                        style="width: 20%; padding-bottom: 5px; font-weight: 600; color: #5b6770; line-height: 25px; text-align: center;"
+                                        width="20%"
+                                        align="center"
+                                        valign="top">
+                                        ${{total}}
+                                      </td>
+                                    </tr>
+                                    <!-- Total Row End -->
+
+                                  </table>
                                 </td>
                               </tr>
                             </table>
                           </td>
                         </tr>
-                        <!-- Socials Row End -->
+                        <!-- Total Amount End -->
 
-                        <!-- Terms Row Start -->
-                        <tr>
-                          <td
-                            style="padding-top: 30px; font-weight: 600; color: #5b6770; font-size: 13px;"
-                            align="center">
-                            <a href="{{ company.contact_page }}"
-                              style="font-weight: 600; color: #5b6770; text-decoration: none;">
-                              {{ company.terms }}
-                            </a>
-                            <span
-                              style="font-weight: 400; color: #5b6770">|</span>
-                            <a href="{{ company.privacy_page }}"
-                              style="font-weight: 600; color: #5b6770; text-decoration: none;">
-                              {{ company.privacy }}
-                            </a>
-                          </td>
-                        </tr>
-                        <!-- Terms Row End -->
+                        </td>
+                      </tr>
+                      <!-- Menu Items End -->
 
-                        <!-- Footer Info Row Start -->
-                        <tr>
-                          <td
-                            style="padding-top: 30px; font-weight: 400; color: #5b6770; font-size: 13px; line-height: 25px;"
-                            align="left">
-                            To make sure you receive Chick‑fil‑A®
-                            email updates, add <span>
-                              <a href="#"
-                                style="color: #0952ce; text-decoration: none;">{{ company.email }}</a>
-                            </span> to your email address book or
-                            personal whitelist.
+                    </table>
+                  </td>
+                </tr>
+                <!-- Inner Table Container End -->
 
-                            If you no longer wish to receive messages
-                            from Chick‑fil‑A®,
-                            you can unsubscribe by <a href="#"
-                              style="color: #c8102e; text-decoration: none;">
-                              clicking here</a>. After unsubscribing,
-                            you will no longer receive any exclusive
-                            Chick‑fil‑A® email
-                            content such as special offers, event
-                            details or other
-                            marketing materials. However, you may
-                            continue to receive
-                            transactional emails such as electronic
-                            receipts. Please do
-                            not reply to this email.
-                            <br>
-                            <br>
-                            &copy; 2023 Chic-fil-a Inc. {{ company.address2 }}, {{ company.city2 }}, {{ company.state }} {{ company.zipcode2 }}
-                            <br>
-                            <br>
-                          </td>
-                        </tr>
-                        <!-- Footer Info Row End -->
+              </table>
+            </td>
+          </tr>
+          <!-- End Main Content -->
 
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-            <!-- End Footer -->
-        </td>
-      </tr>
-      <!-- End of Container -->
-    </table>
-    <!-- End HTML Email -->
+          <!-- Start Footer -->
+          <tr>
+            <td class="footer"
+              style="background-color: #ffffff; border-top: 1px solid #d8d8d8; padding-top: 50px; padding-right: 40px; padding-bottom: 55px; padding-left: 40px;"
+              valign="top" align="center">
+              <table role="presentation" style="border-collapse: collapse;" width="100%"
+                border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td align="left">
+                    <table role="presentation" style="border-collapse: collapse;"
+                      width="100%" border="0" cellspacing="0"
+                      cellpadding="0">
 
-  </script>
+                      <!-- Socials Row Start -->
+                      <tr>
+                        <td align="center">
+                          <table role="presentation"
+                            style="border-collapse: collapse; width: 150px;"
+                            width="130" border="0" cellspacing="0"
+                            cellpadding="0">
+                            <tr>
+                              <td>
+                                <a href="#">
+                                  <img
+                                    src="https://i.postimg.cc/3J8CNzbh/ig.png"
+                                    alt="Instagram Image"
+                                    style="border: none; clear: both; display: block; width: 30px; height: 30px;"
+                                    width="30" height="30"
+                                    border="0">
+                                </a>
+                              </td>
+                              <td style="padding-left: 20px;">
+                                <a href="#">
+                                  <img
+                                    src="https://i.postimg.cc/XNckVnLx/fb.png"
+                                    alt="Facebook Image"
+                                    style="border: none; clear: both; display: block; width: 30px; height: 30px;"
+                                    width="30" height="30"
+                                    border="0">
+                                </a>
+                              </td>
+                              <td style="padding-left: 20px;">
+                                <a href="#">
+                                  <img
+                                    src="https://i.postimg.cc/gJy8kKVr/twitter.png"
+                                    alt="Twitter Image"
+                                    style="border: none; clear: both; display: block; width: 30px; height: 30px;"
+                                    width="30" height="30"
+                                    border="0">
+                                </a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <!-- Socials Row End -->
+
+                      <!-- Terms Row Start -->
+                      <tr>
+                        <td
+                          style="padding-top: 30px; font-weight: 600; color: #5b6770; font-size: 13px;"
+                          align="center">
+                          <a href="{{ company.contact_page }}" target="_blank" 
+                            style="font-weight: 600; color: #5b6770; text-decoration: none;">
+                            {{ company.terms }}
+                          </a>
+                          <span
+                            style="font-weight: 400; color: #5b6770">|</span>
+                          <a href="{{ company.privacy_page }}" target="_blank"
+                            style="font-weight: 600; color: #5b6770; text-decoration: none;">
+                            {{ company.privacy }}
+                          </a>
+                        </td>
+                      </tr>
+                      <!-- Terms Row End -->
+
+                      <!-- Footer Info Row Start -->
+                      <tr>
+                        <td
+                          style="padding-top: 30px; font-weight: 400; color: #5b6770; font-size: 13px; line-height: 25px;"
+                          align="left">
+                          To make sure you receive Chick‑fil‑A®
+                          email updates, add <span>
+                            <a href="#"
+                              style="color: #0952ce; text-decoration: none;">{{ company.email }}</a>
+                          </span> to your email address book or
+                          personal whitelist.
+
+                          If you no longer wish to receive messages
+                          from Chick‑fil‑A®,
+                          you can unsubscribe by <a href="#"
+                            style="color: #c8102e; text-decoration: none;">
+                            clicking here</a>. After unsubscribing,
+                          you will no longer receive any exclusive
+                          Chick‑fil‑A® email
+                          content such as special offers, event
+                          details or other
+                          marketing materials. However, you may
+                          continue to receive
+                          transactional emails such as electronic
+                          receipts. Please do
+                          not reply to this email.
+                          <br>
+                          <br>
+                          &copy; 2023 Chic-fil-a Inc. {{ company.address2 }}, {{ company.city2 }}, {{ company.state }} {{ company.zipcode2 }}
+                          <br>
+                          <br>
+                        </td>
+                      </tr>
+                      <!-- Footer Info Row End -->
+
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- End Footer -->
+      </td>
+    </tr>
+    <!-- End of Container -->
+  </table>
+  <!-- End HTML Email -->
+
+</script>
+
 <div id="result"></div>
 
- 
-
-
-
-<!--for production-->
-<script src="https://cdn.jsdelivr.net/npm/liquidjs/dist/liquid.browser.min.js"></script>
 <!--for development-->
-<!-- <script src="https://cdn.jsdelivr.net/npm/liquidjs/dist/liquid.browser.umd.js"></script> -->
+<script
+  src="https://cdn.jsdelivr.net/npm/liquidjs/dist/liquid.browser.umd.js">
+</script>
 
 <script>
   const template = document.querySelector('[type="text/template"]')
@@ -834,7 +828,35 @@
   const engine = new liquidjs.Liquid()
 
   engine
-    .parseAndRender(template.innerHTML, { 
+    .parseAndRender(template.innerHTML, {
+
+      "company": {
+        "logo_image": "https://i.postimg.cc/L6xk1vr1/logo.png",
+        "treats_image": "https://i.postimg.cc/fT9CyC0Y/treats.jpg",
+        "profile_image": "https://i.postimg.cc/DzX1Rhmr/profile.jpg",
+        "order_image": "https://i.postimg.cc/Sx5WZRQQ/order.jpg",
+        "logo_alt": "logo image",
+        "treats_alt": "treats image",
+        "profile_alt": "profile image",
+        "order_alt": "order image",
+        "logo_link": "https://www.chick-fil-a.com/?utm_source=transactional&utm_medium=email&utm_campaign=login_url",
+        "treats_link": "https://www.chick-fil-a.com/?utm_source=transactional&utm_medium=email&utm_campaign=login_url",
+        "profile_link": "https://www.chick-fil-a.com/?utm_source=transactional&utm_medium=email&utm_campaign=login_url",
+        "order_link": "https://www.chick-fil-a.com/?utm_source=transactional&utm_medium=email&utm_campaign=login_url",
+        "address": "5925 Roswell Rd Ste C",
+        "address2": "5200 Buffington Road",
+        "city": "Sandy Springs",
+        "city2": "Atlanta",
+        "state": "GA",
+        "zipcode": "30328",
+        "zipcode2": "30349",
+        "phone": "(404) 847-0488",
+        "terms": "Terms",
+        "privacy": "Privacy",
+        "email": "one@email.chick‑fil‑a.com",
+        "contact_page": "https://www.chick-fil-a.com/legal?utm_source=transactional&utm_medium=email&utm_campaign=login_url#terms_and_conditions",
+        "privacy_page": "https://www.chick-fil-a.com/legal?utm_source=transactional&utm_medium=email&utm_campaign=login_url#privacy_policy"
+      },
       "customer": {
         "id": "55767892",
         "order_date": "07/4/2023",
@@ -859,29 +881,10 @@
         "subtotal": "9.64",
         "tax": "0.69",
         "total": "5.08"
-      },
-      "company": {
-        "header_images": "https://i.postimg.cc/L6xk1vr1/logo.png, https://i.postimg.cc/fT9CyC0Y/treats.jpg, https://i.postimg.cc/DzX1Rhmr/profile.jpg, https://i.postimg.cc/Sx5WZRQQ/order.jpg",
-        "header_logo": "https://www.chick-fil-a.com/?utm_source=transactional&utm_medium=email&utm_campaign=login_url",
-        "header_treats": "https://www.chick-fil-a.com/?utm_source=transactional&utm_medium=email&utm_campaign=login_url",
-        "header_profile": "https://www.chick-fil-a.com/?utm_source=transactional&utm_medium=email&utm_campaign=login_url",
-        "header_order": "https://www.chick-fil-a.com/?utm_source=transactional&utm_medium=email&utm_campaign=login_url",
-        "address": "5925 Roswell Rd Ste C",
-        "address2": "5200 Buffington Road",
-        "city": "Sandy Springs",
-        "city2": "Atlanta",
-        "state": "GA",
-        "zipcode": "30328",
-        "zipcode2": "30349",
-        "phone": "(404) 847-0488",
-        "terms": "Terms",
-        "privacy": "Privacy",
-        "email": "one@email.chick‑fil‑a.com",
-        "contact_page": "https://www.chick-fil-a.com/legal?utm_source=transactional&utm_medium=email&utm_campaign=login_url#terms_and_conditions",
-        "privacy_page": "https://www.chick-fil-a.com/legal?utm_source=transactional&utm_medium=email&utm_campaign=login_url#privacy_policy"
       }
      })
     .then(html => result.innerHTML = html)
 </script>
+
 </body>
 </html>
